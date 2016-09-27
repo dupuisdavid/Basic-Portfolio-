@@ -1,56 +1,86 @@
-header{
-	background: #4aaaa5;
-	color: white;
-	padding: 20px;
-	margin-left: 60px;
-	width: 33%;
-	text-align: center;
-	float: left;
 
+
+header{
+	
+	color: white;
+	margin: 20px;
+	padding: 20px;
+	margin-left: 80px;
+	height: 200px;
+
+
+	
 }
 
-body{
- 
+#name{
+	background-color: #4aaaa5;
+	width: 33%;
+	padding: 20px;
+	float: left;
 }
 
 #right-header{
-	background-color: #ffffff;
-	width: 44%;
-	padding: 30px;
-	text-align: right;
-	float: left;
+	color: black;
+	text-align: left;
+	float: right;
+	padding: 20px;
+	margin-right: 400px;
+	background-color: orange;
+	margin-left: 50px;
 }
-h2, h3{
+h5{
+	text-align: left;
+}
+h2{
 	color: #4aaaa5;
-
 }
-#full{
-	background-image: url('cork-wallet.png');
-	clear: both;
-	overflow: auto;
-	width: 100%;
+h3{
+	color:#4aaaa5;
 }
 
-
-
-#division{
-	background: yellow;
-	padding: 20px;
-
-}
-aside{
-	background: #ffffff;
-	padding: 20px;
-	margin-left: 60px;
-	margin-top: 80px;
-	margin-bottom: 120px;
+#top-right{
+	background-color: orange;
+	width: 33%;
 	float: left;
+}
+.container{
+	width: 1024px;
+	margin: 20px;
+	background-image: url("../images/seamless_paper_texture.png");
+}
 
+#main-bio{
+	float: left;
+	background-color: yellow;
+	margin-left: 80px;
+	margin-bottom: 30px;
+
+}
+#connect{
+	float: right;
+}
+#bio-image{
+	float: left;
+}
+
+#main-bio{
+	width: 50%;
+}
+
+#connect{
+	width: 20%;
+	background-color: green;
+	height: 100px;
+	padding: 20px;
+	text-align: left;
 }
 
 footer{
 	background-color: #666666;
 	padding: 20px;
 	text-align: center;
+	float: both;
+	clear: both;
+	
 
 }
